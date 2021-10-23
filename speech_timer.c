@@ -38,8 +38,8 @@ int main() {
 }
 
 
-void write_txt(float n) {
-
+void write_txt(float n) 
+{
 	FILE *fw;
 	fw = fopen("./log.txt", "a");
 	if(fw==NULL) {
