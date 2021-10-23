@@ -3,7 +3,7 @@
 #include <string.h>
 
 
-#define WORDS_PER_SEC	((72.0 + 56.0 + 70.0 + 22.0 + 42.0)/(40+27+35+13+23))
+#define WORDS_PER_SEC	(1850/810.0)
 
 
 int main() {
