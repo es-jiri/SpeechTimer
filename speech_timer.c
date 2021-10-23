@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 
 
@@ -11,7 +10,6 @@ int main() {
 	char rep[1] = "y";
 	while(strcmp(rep,"n")) 
 	{
-		/*system("@cls||clear");*/
 		printf("Enter number of words: ");
 		scanf("%f", &n);
 		n /= WORDS_PER_SEC;
